@@ -1,0 +1,114 @@
+.app-container {
+  padding: 24px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-steps {
+  margin-bottom: 40px;
+}
+
+.custom-steps .ant-steps-item {
+  cursor: pointer;
+}
+
+.custom-steps .ant-steps-item-icon {
+  width: 32px;
+  height: 32px;
+  font-size: 16px;
+  background-color: #f0f0f0;
+  border: none;
+  color: #999;
+}
+
+
+.custom-steps .ant-steps-item-process .ant-steps-item-icon {
+  background-color: #1677ff !important;
+  color: #fff !important;
+}
+
+.custom-steps .ant-steps-item-finish .ant-steps-item-icon {
+  background-color: #4aa8ff !important; 
+  color: #fff !important;
+}
+
+.custom-steps .ant-steps-item-finish .ant-steps-icon .anticon {
+  color: #fff !important;
+}
+
+.custom-steps .ant-steps-item-tail::after {
+  height: 2px;
+}
+
+.step-content {
+  margin-top: 20px;
+}
+
+ 
+.step-actions {
+  margin-top: 24px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.prev-btn,
+.next-btn,
+.finish-btn {
+  border-radius: 6px;
+  padding: 0 20px;
+  height: 36px;
+  font-weight: 500;
+}
+
+.next-btn {
+  background-color: #1677ff;
+  border-color: #1677ff;
+  color: #fff;
+}
+
+.next-btn:hover,
+.prev-btn:hover {
+  color: #1677ff;
+  border-color: #1677ff;
+}
+.finish-btn {
+  background-color: #52c41a;
+  border-color: #52c41a;
+  color: #fff;
+}
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 20px;
+}
+.ant-input,
+input,
+textarea {
+  caret-color: #000 !important; 
+  transition: none !important;
+  animation: none !important;
+  opacity: 1 !important;
+}
+
+.ant-input:hover,
+input:hover,
+textarea:hover,
+.ant-input:focus,
+input:focus,
+textarea:focus {
+  transition: none !important;
+  animation: none !important;
+  caret-color: #000 !important;
+  background-color: #fff !important;
+}
+
+.step {
+  position: sticky;
+  top: 0;
+  z-index: 1000; 
+  background: #fff;
+  padding: 12px 0; 
+}
